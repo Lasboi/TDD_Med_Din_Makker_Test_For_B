@@ -2,49 +2,48 @@ package Opgave_B;
 
 public class Factorial {
 
-        public static int findFactorial(int x) {
+    public static int findFactorial(int x) {
 
-            int result = 1;
+        int result = 1;
 
-            for (int i = x; i > 0; i--) {
-                result *= i;
-            }
-
-            return result;
-
+        for (int i = x; i > 0; i--) {
+            result *= i;
         }
 
-        public static int findFactorialTwoNumbers(int x, int y) {
+        return result;
 
-            int result;
+    }
 
-            result = x * y;
+    public static int findFactorialTwoNumbers(int x, int y) {
 
-            return result;
+        int result;
 
-        }
+        result = x * y;
 
-        public static String outputText( int x, int y, int z) {
+        return result;
 
-            String result = "";
+    }
 
-            int sum = x * y * z;
-            result = "Resultatet af " + x + " * " + y + " * " + z + " er " + sum;
+    public static String outputText( int x, int y, int z) {
 
-            return result;
+        String result = "";
 
-        }
+        int sum = x * y * z;
+        result = "Resultatet af " + x + " * " + y + " * " + z + " er " + sum;
 
-        public static int countNumberUp(int x) {
+        return result;
 
-            int result;
+    }
 
-            result = x + 10;
+    public static int countNumberUp(int x) {
 
-            return result;
+        int result;
 
-        }
+        result = x + 10;
 
+        return result;
+
+    }
         public static int ifXIsZero(int x) {
             int resultat = x;
                 while (x == 0) {

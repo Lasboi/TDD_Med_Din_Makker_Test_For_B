@@ -39,23 +39,24 @@ public class FactorialTest extends TestCase {
         int z = 4;
         String answer;
 
-        answer = Factorial.outputText(2, 2, 4);
-        assertEquals("Resultatet af 2 * 2 * 4 er 16", answer);
+       answer = Factorial.outputText(2, 2, 4);
+       assertEquals("Resultatet af 2 * 2 * 4 er 16", answer);
     }
 
     //Edge Test Case - Hvis et tal er nul sæt det til 1
     //Input: x = 0, y = 0, z = 4
     //Forventet output: x = 1, y = 1, z = 4
     public void testIfNumberZero() {
-        int x = Factorial.ifXIsZero(0);
-        int y = Factorial.ifXIsZero(0);
-        int z = Factorial.ifXIsZero(4);
+        int x = Factorial.ifAnswerIsZero(0);
+        int y = Factorial.ifAnswerIsZero(0);
+        int z = Factorial.ifAnswerIsZero(4);
 
 
         assertEquals(1, x);
         assertEquals(1, y);
         assertEquals(4, z);
     }
+
 
     //Test Case - Få Factorial til at virke på x
     //Input: x = 3, x = 4
