@@ -45,6 +45,16 @@ public class Factorial {
 
     }
 
-    public static int ifAnswerIsZero(int x) { return 0; }
+    public static int ifAnswerIsZero(int x) {
+
+        int result = x;
+
+        if (x == 0) {
+            result = 1;
+        }
+
+        return result;
+
+    }
 
 }
