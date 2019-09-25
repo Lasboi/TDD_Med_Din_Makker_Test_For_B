@@ -44,7 +44,12 @@ public class Factorial {
         return result;
 
     }
+        public static int ifXIsZero(int x) {
+            int resultat = x;
+                while (x == 0) {
+                    return x + 1;
+                }
+                return resultat;
 
-    public static int ifAnswerIsZero(int x) { return 0; }
-
+    }
 }

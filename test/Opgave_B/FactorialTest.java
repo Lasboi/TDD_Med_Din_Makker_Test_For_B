@@ -57,6 +57,7 @@ public class FactorialTest extends TestCase {
         assertEquals(4, z);
     }
 
+
     //Test Case - Få Factorial til at virke på x
     //Input: x = 3, x = 4
     //Forventet output: result = 6, result = 24
