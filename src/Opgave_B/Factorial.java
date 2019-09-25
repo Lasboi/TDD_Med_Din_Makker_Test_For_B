@@ -10,7 +10,11 @@ public class Factorial {
         return 0;
     }
 
-    public static String outputText( int x, int y, int z, int sum) { return "XD"; }
+    public static String outputText( int x, int y, int z) {
+        int sum = x * y * z;
+
+
+        return "XD"; }
 
     public static int countNumberUp(int x, int y, int z) { return 0; }
 

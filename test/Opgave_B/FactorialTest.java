@@ -37,13 +37,12 @@ public class FactorialTest extends TestCase {
     //Input: x = 2, y = 2, z = 4
     //Forventet output: "Resultatet af 2 * 2 * 4 er 16"
     public void testString() {
-        int x;
-        int y;
-        int z;
-        int sum;
+        int x = 2;
+        int y = 2;
+        int z = 4;
         String answer;
 
-       answer = Factorial.outputText(x = 2, y = 2, z = 4 , sum = x * y * z);
+       answer = Factorial.outputText(2, 2, 4);
 
        assertEquals("Resultatet af 2 * 2 * 4 er 16", answer);
     }
