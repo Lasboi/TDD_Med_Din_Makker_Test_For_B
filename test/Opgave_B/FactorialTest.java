@@ -58,16 +58,16 @@ public class FactorialTest extends TestCase {
     }
 
     //Test Case - Få Factorial til at virke på x
-    //Input: x = 12, x = 10
-    //Forventet output: result = , result = 100
+    //Input: x = 3, x = 4
+    //Forventet output: result = 6, result = 24
     public void testFactorial() {
-        int x = 12;
+        int x = 3;
         int result = Factorial.findFactorial(x);
-        assertEquals(144, result);
+        assertEquals(6, result);
 
-        x = 10;
+        x = 4;
         result = Factorial.findFactorial(x);
-        assertEquals(100, result);
+        assertEquals(24, result);
 
     }
 }
