@@ -10,8 +10,8 @@ public class Factorial {
         return 0;
     }
 
-    public static String outputText(String answer) {
-        return "XD";
+    public static String outputText( int x, int y, int z, int sum) {
+        return "Resultatet af " + x + " * " + y + " * " + z + " er " + sum;
     }
 
     public static int countNumberUp(int x, int y, int z) { return 0; }
