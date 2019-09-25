@@ -25,7 +25,7 @@ public class FactorialTest extends TestCase {
         int y = 2;
         int z = 4;
 
-        Factorial.countNumberUp();
+        Factorial.countNumberUp(x, y, z);
 
         assertEquals(10, x);
         assertEquals(12, y);
@@ -57,7 +57,7 @@ public class FactorialTest extends TestCase {
         int y = 0;
         int z = 4;
 
-        Factorial.ifAnswerIsZero();
+        Factorial.ifAnswerIsZero(x, y, z);
 
         assertEquals(1, x);
         assertEquals(1, y);

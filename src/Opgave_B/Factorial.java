@@ -14,12 +14,8 @@ public class Factorial {
         return "XD";
     }
 
-    public static void countNumberUp() {
+    public static int countNumberUp(int x, int y, int z) { return 0; }
 
-    }
-
-    public static void ifAnswerIsZero() {
-
-    }
+    public static int ifAnswerIsZero(int x, int y, int z) { return 0; }
 
 }
