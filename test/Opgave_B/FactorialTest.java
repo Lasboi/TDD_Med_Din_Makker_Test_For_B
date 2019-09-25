@@ -21,12 +21,9 @@ public class FactorialTest extends TestCase {
     //Input: x = 0, y = 2, z = 4
     //Forventet output: x = 10, y = 12, z = 14
     public void testTenNumbers() {
-        int x;
-        int y;
-        int z;
-        Factorial.countNumberUp(x = 0, y = 2, z = 4);
-
-        Factorial.countNumberUp(x, y, z);
+        int x = Factorial.countNumberUp(0);
+        int y = Factorial.countNumberUp(2);
+        int z = Factorial.countNumberUp(4);
 
         assertEquals(10, x);
         assertEquals(12, y);
@@ -43,7 +40,6 @@ public class FactorialTest extends TestCase {
         String answer;
 
        answer = Factorial.outputText(2, 2, 4);
-
        assertEquals("Resultatet af 2 * 2 * 4 er 16", answer);
     }
 
@@ -51,11 +47,10 @@ public class FactorialTest extends TestCase {
     //Input: x = 0, y = 0, z = 4
     //Forventet output: x = 1, y = 1, z = 4
     public void testIfNumberZero() {
-        int x = 0;
-        int y = 0;
-        int z = 4;
+        int x = Factorial.ifAnswerIsZero(0);
+        int y = Factorial.ifAnswerIsZero(0);
+        int z = Factorial.ifAnswerIsZero(4);
 
-        Factorial.ifAnswerIsZero(x, y, z);
 
         assertEquals(1, x);
         assertEquals(1, y);
