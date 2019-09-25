@@ -3,7 +3,15 @@ package Opgave_B;
 public class Factorial {
 
     public static int findFactorial(int x) {
-        return 0;
+
+        int result = 1;
+
+        for (int i = x; i > 0; i--) {
+            result *= i;
+        }
+
+        return result;
+
     }
 
     public static int findFactorialTwoNumbers(int x, int y) {

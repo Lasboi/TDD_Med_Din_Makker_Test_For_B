@@ -59,7 +59,7 @@ public class FactorialTest extends TestCase {
 
     //Test Case - Få Factorial til at virke på x
     //Input: x = 12, x = 10
-    //Forventet output: result = 144, result = 100
+    //Forventet output: result = , result = 100
     public void testFactorial() {
         int x = 12;
         int result = Factorial.findFactorial(x);
